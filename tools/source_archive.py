@@ -15,6 +15,8 @@ ROOT_FILES = (
     "THIRD_PARTY_NOTICES.md",
     "pyproject.toml",
     "requirements-separator.txt",
+    "requirements-release-app.txt",
+    "requirements-release-separator.txt",
     "build.ps1",
     "run_studio.py",
     "Launch Map Studio.cmd",
