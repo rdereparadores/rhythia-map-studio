@@ -1,0 +1,20 @@
+# Windows x64 / Python 3.12 release environment, including transitive dependencies.
+altgraph==0.17.5
+cffi==2.1.1
+numpy==2.5.3
+packaging==26.3
+pefile==2024.8.26
+pycparser==3.0
+pyinstaller==6.22.2
+pyinstaller-hooks-contrib==2026.7
+PySide6==6.11.2
+PySide6_Addons==6.11.2
+PySide6_Essentials==6.11.2
+pywin32-ctypes==0.2.3
+ruff==0.16.6
+scipy==1.18.1
+setuptools==84.0.0
+shiboken6==6.11.2
+soundfile==0.14.0
+typing_extensions==4.16.0
+wheel==0.48.0

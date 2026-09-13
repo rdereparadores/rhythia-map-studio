@@ -25,6 +25,7 @@ htmlcov/
 # Build output and packaging metadata
 build/
 dist/
+/release-assets/
 *.spec
 *.egg-info/
 *.whl

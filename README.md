@@ -86,6 +86,7 @@ Contributions to mapping, analysis, accessibility, translations and documentatio
 | --- | --- |
 | [Architecture](ARCHITECTURE.md) | Modules, data flow and invariants |
 | [Build guide](docs/BUILDING.md) | Portable builds, optional separator and packaging checks |
+| [Release guide](docs/RELEASING.md) | Automated Windows downloads and GitHub release setup |
 | [Internationalization](I18N.md) | Translation catalogs and adding languages |
 | [Changelog](CHANGELOG.md) | Version history |
 | [Third-party notices](THIRD_PARTY_NOTICES.md) | Dependency references and distribution notices |
