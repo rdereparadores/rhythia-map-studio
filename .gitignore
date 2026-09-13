@@ -1,0 +1,81 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.stems/
+
+# Local environment settings; keep a shareable example
+.env
+.env.*
+!.env.example
+
+# Test, lint, type-check and coverage output
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build output and packaging metadata
+build/
+dist/
+*.spec
+*.egg-info/
+*.whl
+
+# User audio and map projects (tests generate synthetic audio)
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.rhm
+*.rmapproj
+
+# Bundled binaries, model weights and distribution archives
+*.exe
+*.dll
+*.th
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.7z
+
+# Generated application data and local separator installation
+recovery/
+.cache/
+/separation/backend.json
+/separation/cache/
+/separation/models/
+/separation/DemucsWorker/
+outputs/
+*.log
+*.log.*
+
+# Personal editor state and temporary files
+.idea/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
