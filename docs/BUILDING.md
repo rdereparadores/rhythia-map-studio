@@ -2,6 +2,8 @@
 
 All commands below run from the repository root in PowerShell. See the [README](../README.md) for basic installation and [CONTRIBUTING.md](../CONTRIBUTING.md) for development checks.
 
+For automated tag-triggered builds and GitHub Releases, see [RELEASING.md](RELEASING.md).
+
 ## Build the desktop app
 
 Install development dependencies, then select the interpreter explicitly:
@@ -101,4 +103,7 @@ To build a Python wheel:
 .venv\Scripts\python -m pip wheel . --no-deps --wheel-dir dist/wheels
 ```
 
-Application dependencies use version ranges. The separator has pinned direct dependencies, but neither workflow currently locks every transitive dependency; builds are not claimed to be byte-for-byte reproducible. Record the environment used for a release and retain the corresponding source archive and third-party notices.
+Development installation uses dependency ranges. Automated releases use the pinned
+`requirements-release-app.txt` and `requirements-release-separator.txt` environments,
+including transitive dependencies. Builds are not claimed to be byte-for-byte
+reproducible. Release packages record the installed environment and dependency notices.
