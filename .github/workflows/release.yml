@@ -74,7 +74,7 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           python -m pip freeze --all | Set-Content dist/build-environment-app.txt
           python tools/package_release.py app
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: release-app
           path: release-assets/*.zip
@@ -114,7 +114,7 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           python -m pip freeze --all | Set-Content dist/build-environment-separator.txt
           python tools/package_release.py separator
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: release-separator
           path: release-assets/*.zip
